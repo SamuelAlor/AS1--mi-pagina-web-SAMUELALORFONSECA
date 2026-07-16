@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>MiWeb - Páginas Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <header>
+    <h1>MiWeb</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Galería</a></li>
+        <li><a href="#acerca">Acerca de</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección principal / hero -->
+  <section id="inicio" class="hero">
+    <div class="hero-texto">
+      <h2>Creamos tu página web ideal</h2>
+      <p>Ofrecemos diseño de páginas web sencillas, rápidas y a tu medida para negocios, tiendas, blogs y portafolios.</p>
+      <a href="#servicios" class="boton">Ver Galería</a>
+    </div>
+    <div class="hero-imagen">
+      <img src="images/img1.png" alt="Laptop con página web">
+    </div>
+  </section>
+
+  <!-- Galería de imágenes en formato tabla -->
+  <section id="servicios" class="galeria">
+    <h2>Galería</h2>
+    <div class="galeria-contenedor">
+      <div class="tarjeta">
+        <img src="images/img2.png" alt="Página para negocios">
+        <p>Página para Negocios</p>
+      </div>
+      <div class="tarjeta">
+        <img src="images/img3.png" alt="Tienda en línea">
+        <p>Tienda en Línea</p>
+      </div>
+      <div class="tarjeta">
+        <img src="images/img4.png" alt="Blog personal">
+        <p>Blog Personal</p>
+      </div>
+      <div class="tarjeta">
+        <img src="images/img5.png" alt="Portafolio">
+        <p>Portafolio</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Acerca de + interacción con JavaScript -->
+  <section id="acerca" class="acerca">
+    <h2>Acerca de Nosotros</h2>
+    <p>En MiWeb ayudamos a personas y negocios a tener presencia en internet con páginas web simples, claras y funcionales. Presiona el botón para obtener tu número de turno y atenderte.</p>
+
+    <button id="btnTurno">Obtener número de turno</button> <br>
+    <p id="salidaTurno"></p>
+  </section>
+
+  <!-- Pie de página mejorado -->
+  <footer id="contacto" class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h3>WebFácil</h3>
+        <p>Diseño web para negocios y personas. Simple, rápido y accesible.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Galería</a></li>
+          <li><a href="#acerca">Acerca de</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Datos</h4>
+        <p>Samuel Alor Fonseca</p>
+        <p><a href="mailto:samuelalorf@outlook.com">samuelalorf@outlook.com</a></p>
+        <p>Asignatura: Programación Web</p>
+        <p>Año: 2026</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 MiWeb — Hecho por Samuel Alor Fonseca</p>
+      <button class="back-to-top" aria-label="Volver arriba">⬆</button>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
